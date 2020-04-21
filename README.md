@@ -19,4 +19,5 @@ Simulations are run in Julia v1.3.1 in a jupyter notebook using the file: *MAGE_
 Simulation output is saved into the *SimulationOutput* directory as csv files. <br>
 Figures made for the report are generated using R 3.5.3 using the file: *MappingCovidCounty.R* . <br>
 The generated figures are saved to the *figures* directory. <br>
-Data required for simulations and mapping is found in the *data* directory
+Data required for simulations and mapping is found in the *data* directory. <br>
+The report is stored in the *Report* directory.
