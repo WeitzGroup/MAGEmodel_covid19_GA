@@ -15,12 +15,8 @@ Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Code for: Sprea
 
 #### Technical details:
 
-Simulations are run in Julia v1.3.1 in a jupyter notebook - the file:
-
-Simulation output is saved into the SimulationOutput directory as csv files
-
-Figures made for the report are generated using R 3.5.3 using the file: MappingCovidCounty.R.
-
-The generated figures are saved to the figures directory
-
+Simulations are run in Julia v1.3.1 in a jupyter notebook - the file: \
+Simulation output is saved into the SimulationOutput directory as csv files \
+Figures made for the report are generated using R 3.5.3 using the file: MappingCovidCounty.R. \
+The generated figures are saved to the figures directory. \
 Data required for simulations and mapping is found in the data directory
