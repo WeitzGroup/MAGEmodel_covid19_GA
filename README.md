@@ -12,3 +12,5 @@ Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020)
 ### Cite the code as:
 
 Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Code for: Spread of COVID-19 through Georgia, USA. Projections via a metapopulation model. Zenodo.
+
+#### Technical details:
