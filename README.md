@@ -7,7 +7,7 @@ Access the report here: <br>
 
 ### Cite the report as:
 
-Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model. https://raw.github.com/WeitzGroup/MAGEmodel_covid19_GA/master/Report/RAWfiles/GA_COVID19_assessment_21Apr2020.pdf
+Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model. https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_assessment_21Apr2020.pdf
 
 ### Cite the code as:
 
