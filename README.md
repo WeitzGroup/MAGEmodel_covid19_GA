@@ -3,7 +3,7 @@
 This repository includes code and figures for the report "Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model" which describes the development and application of an epidemiologial metapopulation model to Georgia, USA. The model includes asymptomatic and symptomatic transmission routes, subactute and critically hospitalised compartments; and age-stratified risk. Counties are chosen as the spatial units in the metapopulation framework; where movement of people between counties is modelled implicitly. The code is written in and run in Julia v1.3.1.
 
 Access the report here: <br>
-**[Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://raw.github.com/WeitzGroup/MAGEmodel_covid19_GA/master/Report/RAWfiles/GA_COVID19_assessment_21Apr2020.pdf)**
+**[Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_assessment_21Apr2020.pdf)**
 
 ### Cite the report as:
 
