@@ -18,7 +18,7 @@ Even in the best case scenarios, COVID-19 remains a threat post-memorial day. Re
 distancing interventions now without robust plans to contain the outbreak endangers lives.<br>
 
 <p align="center">
-<img src="https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/figures/DPDproject.png" width="500">
+<img src="https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/figures/Summary.png">
 </p>
 
 Access the executive summary here: <br>
