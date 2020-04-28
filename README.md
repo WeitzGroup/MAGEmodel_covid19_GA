@@ -17,12 +17,20 @@ serological and viral shedding tests are urgently required at scale to assess th
 Even in the best case scenarios, COVID-19 remains a threat post-memorial day. Relaxing social
 distancing interventions now without robust plans to contain the outbreak endangers lives.<br>
 
+<p align="center">
+<img src="https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/figures/Summary.png" width="500">
+</p>
+
 Access the executive summary here: <br>
-**[COVID-19 assessment of reopening Georgia](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_assessment_21Apr2020.pdf)**
+**[COVID-19 assessment of reopening Georgia](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_23Apr2020.pdf)**
 
 ### Cite the report as:
 
 Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model. https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_assessment_21Apr2020.pdf
+
+### Cite the summary as:
+
+Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) COVID-19 assessment of reopening Georgia. https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_23Apr2020.pdf
 
 ### Cite the code as:
 
