@@ -2,7 +2,7 @@
 
 This repository includes code and figures for the report "Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model" which describes the development and application of an epidemiologial metapopulation model to Georgia, USA. The model includes asymptomatic and symptomatic transmission routes, subactute and critically hospitalised compartments; and age-stratified risk. Counties are chosen as the spatial units in the metapopulation framework; where movement of people between counties is modelled implicitly. The code is written in and run in Julia v1.3.1.
 
-### Results summary:<br>
+## Results summary:<br>
 <ins>**Social distancing policies are saving lives**</ins><br>
 Reopening threatens to lead to an increase in cases as the population is immunologically naïve.<br>
   
