@@ -19,7 +19,7 @@ distancing interventions now without robust plans to contain the outbreak endang
 </p>
 
 Access the executive summary here: <br>
-**[COVID-19 assessment of reopening Georgia](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_23Apr2020.pdf)**
+**[COVID-19 assessment of reopening Georgia](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_28Apr2020.pdf)**
 
 Access the full report here: <br>
 **[Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_assessment_21Apr2020.pdf)**
@@ -30,7 +30,7 @@ Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID
 
 ### Cite the summary as:
 
-Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) COVID-19 assessment of reopening Georgia. https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_23Apr2020.pdf
+Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) COVID-19 assessment of reopening Georgia. https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_28Apr2020.pdf
 
 ### Cite the code as:
 
