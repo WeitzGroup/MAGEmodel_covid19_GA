@@ -11,7 +11,7 @@ Our models suggest Georgia is detecting between one of every five to ten COVID-1
 serological and viral shedding tests are urgently required at scale to assess the true prevalence.<br>
   
 <ins>**COVID-19 is a long-term challenge**</ins><br>
-Even in the best case scenarios, COVID-19 remains a threat post-memorial day. Relaxing social
+Even in the best case scenarios, COVID-19 remains a threat post-Memorial Day. Relaxing social
 distancing interventions now without robust plans to contain the outbreak endangers lives.<br>
 
 <p align="center">
