@@ -170,6 +170,8 @@ lines(modDates3,ExtractSumThisDate(EE4$deaths,EE4$date,DATESINTEREST3),col="dark
 
 legend("topleft",bty="n",legend=c("Prior data","Data","Evaluation model","Model with back to business as usual","Model with 50% transmission reduction","Model with 75% transmission reduction"), col=c(CL,CL,"blue","green","olivedrab","darkgreen"),pt.bg=c(NA,CL,rep(NA,4)),lty=c(NA,NA,1,1,2,4),pch=c(1,PCH2,rep(NA,4)),ncol=1,cex=1.25,pt.cex=PSZ,lwd=2)
 
+MminD = ExtractSumThisDate(EE1$cumH,EE1$date,DATESINTEREST3)[1] - recordedHospitalised[LLL]
+
 #hospitalised
 plot(modDatesRec[5:LLL],recordedHospitalised[5:LLL], xlim =c(X1 ,X2),ylim=c(0,25000),xlab="",ylab="Cumulative hospitalised",cex.lab=CLS,pch=PCH2,bg=CL,col=CL, xaxs='i',xaxt="n")
 axis.Date(1,at=TIMES,format="%e %b",las=2) # https://stat.ethz.ch/R-manual/R-devel/library/base/html/strptime.html)
@@ -177,14 +179,14 @@ points(modDatesRec[5:LLL],recordedHospitalised[5:LLL],col=CL,pch=PCH2,bg=CL,cex=
 points(modDatesRec[1:4],recordedHospitalised[1:4],bg=NA,col=CL,pch=PCH2,cex=PSZ)
 lines(modDates2,ExtractSumThisDate(E_3$cumH,E_3$date,DATESINTEREST2),col="blue",lty=1,lwd=LWD)
 
-lines(modDates3,ExtractSumThisDate(EE1$cumH,EE1$date,DATESINTEREST3),col="green",lty=1,lwd=LWD)
-lines(modDates3,ExtractSumThisDate(EE3$cumH,EE3$date,DATESINTEREST3),col="olivedrab",lty=2,lwd=LWD)
-lines(modDates3,ExtractSumThisDate(EE4$cumH,EE4$date,DATESINTEREST3),col="darkgreen",lty=4,lwd=LWD)
+lines(modDates3,ExtractSumThisDate(EE1$cumH,EE1$date,DATESINTEREST3)-MminD,col="green",lty=1,lwd=LWD)
+lines(modDates3,ExtractSumThisDate(EE3$cumH,EE3$date,DATESINTEREST3)-MminD,col="olivedrab",lty=2,lwd=LWD)
+lines(modDates3,ExtractSumThisDate(EE4$cumH,EE4$date,DATESINTEREST3)-MminD,col="darkgreen",lty=4,lwd=LWD)
 legend("topleft",bty="n",legend=c("Prior data","Data","Evaluation model","Model with back to business as usual","Model with 50% transmission reduction","Model with 75% transmission reduction"), col=c(CL,CL,"blue","green","olivedrab","darkgreen"),pt.bg=c(NA,CL,rep(NA,4)),lty=c(NA,NA,1,1,2,4),pch=c(1,PCH2,rep(NA,4)),ncol=1,cex=1.25,pt.cex=PSZ,lwd=2)
 
 
-DRABOLIVE = rgb(107/255,142/255,35/255,0.8)
-DARKGREEN = rgb(0,100/255,0,0.9)
+DRABOLIVE = rgb(107/255,142/255,35/255,0.5)
+DARKGREEN = rgb(0,100/255,0,0.7)
 GREEN = rgb(0,255/255,0,0.5)
 
 LOW=5
@@ -200,19 +202,29 @@ YYY = c(THI/HIGH,rev(THI/LOW))
 #rgb(1, 0, 0,0.5)
 polygon(XXX,YYY,col=rgb(0, 0, 1, 0.5),border=NA)
 
+MminDH = (POPSIZE-ExtractSumThisDate(EE3$Suscep,EE4$date,DATESINTEREST3)[1])/HIGH - recordedCases[LLL]
+MminDL = (POPSIZE-ExtractSumThisDate(EE3$Suscep,EE4$date,DATESINTEREST3)[1])/LOW - recordedCases[LLL]
+MminML = (POPSIZE-ExtractSumThisDate(EE3$Suscep,EE4$date,DATESINTEREST3)[1])/7.5 - recordedCases[LLL]
+
 XXX = c(modDates3,rev(modDates3))
 
 THI = POPSIZE- ExtractSumThisDate(EE4$Suscep,EE4$date,DATESINTEREST3)
-YYY = c(THI/HIGH,rev(THI/LOW))
+YYY = c(THI/HIGH-MminML,rev(THI/LOW -MminML))
 polygon(XXX,YYY,col=DARKGREEN,border=NA)
 
+lines(modDates3,THI/7.5-MminML,col='darkgreen',lwd=2)
+
 THI = POPSIZE- ExtractSumThisDate(EE3$Suscep,EE3$date,DATESINTEREST3)
-YYY = c(THI/HIGH,rev(THI/LOW))
+YYY = c(THI/HIGH-MminML,rev(THI/LOW -MminML))
 polygon(XXX,YYY,col=DRABOLIVE,border=NA)
 
+lines(modDates3,THI/7.5-MminML,col=rgb(107/255,152/255,35/255,1),lwd=2)
+
 THI = POPSIZE- ExtractSumThisDate(EE1$Suscep,EE1$date,DATESINTEREST3)
-YYY = c(THI/HIGH,rev(THI/LOW))
+YYY = c(THI/HIGH-MminML,rev(THI/LOW -MminML))
 polygon(XXX,YYY,col=GREEN,border=NA)
+
+lines(modDates3,THI/7.5 -MminML,col='green',lwd=2)
 
 points(modDatesRec[5:LLL],recordedCases[5:LLL],col=CL,pch=PCH2,bg=CL,cex=PSZ)
 points(modDatesRec[1:4],recordedCases[1:4],bg=NA,col=CL,pch=PCH2,cex=PSZ)
