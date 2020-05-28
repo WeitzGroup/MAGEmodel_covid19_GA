@@ -21,8 +21,11 @@ distancing interventions now without robust plans to contain the outbreak endang
 Access the executive summary here: <br>
 **[COVID-19 assessment of reopening Georgia](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_28Apr2020.pdf)**
 
-Access the full report here: <br>
+Access our 2lst April report here: <br>
 **[Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_assessment_21Apr2020.pdf)**
+
+Access our 28th May manuscript here: <br>
+**[Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GAmetapopModel_28May2020.pdf)**
 
 ### Cite the report as:
 
@@ -31,6 +34,10 @@ Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID
 ### Cite the summary as:
 
 Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) COVID-19 assessment of reopening Georgia. https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_28Apr2020.pdf
+
+## Cite the manuscript as:
+
+The manuscript is in submission at medrxiv. Citation will be updated accordingly.
 
 ### Cite the code as:
 
@@ -43,4 +50,8 @@ Simulation output is saved into the *SimulationOutput* directory as csv files. <
 Figures made for the report are generated using R 3.5.3 using the file: *MappingCovidCounty.R* . <br>
 The generated figures are saved to the *figures* directory. <br>
 Data required for simulations and mapping is found in the *data* directory. <br>
-The report is stored in the *Report* directory.
+The reports are stored in the *Report* directory.
+
+For the manuscritpt figures were generated in R 4.0.0 using the file: *msFigures.R* <br>
+These figures are saved to the *msFigures* directory.
+
