@@ -35,13 +35,13 @@ Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID
 
 Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) COVID-19 assessment of reopening Georgia. https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_summary_28Apr2020.pdf
 
-## Cite the manuscript as:
+### Cite the manuscript as:
 
 The manuscript is in submission at medrxiv. Citation will be updated accordingly.
 
 ### Cite the code as:
 
-Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model. Zenodo. https://doi.org/10.5281/zenodo.3759983
+Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model. Zenodo. https://doi.org/10.5281/zenodo.3759966
 
 #### Technical details:
 
