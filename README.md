@@ -37,7 +37,10 @@ Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) COVID-19 assess
 
 ### Cite the manuscript as:
 
-The manuscript is in submission at medrxiv. Citation will be updated accordingly.
+The manuscript is in review and has been posted to medrXiv as a preprint:
+
+Beckett SJ, Dominguez-Mirazo M, Lee S, Andris C, Weitz JS (2020) Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model. medRxiv  2020.05.28.20115642 https://doi.org/10.1101/2020.05.28.20115642
+
 
 ### Cite the code as:
 
